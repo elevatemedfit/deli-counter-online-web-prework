@@ -41,4 +41,3 @@ def now_serving(array)
     "Now serving #{serving}."
   end
 end
-    
