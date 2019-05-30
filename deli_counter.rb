@@ -28,6 +28,7 @@ def take_a_number(array, name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
     spot=array.size
+    array<<name
     puts "Welcome, #{name}. You are number #{spot+1} in line."
 end
 end
