@@ -32,3 +32,13 @@ def take_a_number(array, name)
     puts "Welcome, #{name}. You are number #{spot+1} in line."
 end
 end
+
+def now_serving(array)
+  if array.size==0
+    puts "The line is empty"
+  else
+    serving=array.shift
+    "Now serving #{serving}."
+  end
+end
+    
