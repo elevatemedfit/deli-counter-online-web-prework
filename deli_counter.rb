@@ -13,6 +13,7 @@ def line(array)
   end
 end
 end
+array=other_deli
 def line(array)
   line_size = array.size
   if line_size==0
