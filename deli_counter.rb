@@ -4,11 +4,13 @@ another_deli=["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", 
 
 def line(array)
   line_size = array.size
+  newarray = []
   if line_size==0
     puts "The line is currently empty."
   else
-    array.each_with_index do |name,index|
-      print "The line is currently: #{index+1}. #{name}"
+      array.each_with_index do |name,index|
+      newarray.push("#{index+1}. #{name}")
   end
+  puts "The line is currently: #{newarray.join(" ")}"
 end
 end
