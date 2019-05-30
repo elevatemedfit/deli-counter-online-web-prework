@@ -30,3 +30,4 @@ def take_a_number(array, name)
     spot=array.size
     puts "Welcome, #{name}. You are number #{array.size+1} in line."
 end
+end
