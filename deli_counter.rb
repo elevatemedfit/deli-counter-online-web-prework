@@ -7,21 +7,8 @@ def line(array)
   if line_size==0
     puts "The line is currently empty."
   else
-    puts "The line is currently:"
     array.each_with_index do |name,index|
-      print " #{index+1}. #{name}"
-  end
-end
-end
-array=other_deli
-def line(array)
-  line_size = array.size
-  if line_size==0
-    puts "The line is currently empty."
-  else
-    puts "The line is currently:"
-    array.each_with_index do |name,index|
-      print " #{index+1}. #{name}"
+      print "The line is currently: #{index+1}. #{name}"
   end
 end
 end
